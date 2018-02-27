@@ -1,0 +1,18 @@
+protocol Bicimad {
+    record Station {
+        string time;
+        int id;
+        string latitude;
+        string longitude;
+        string name;
+        string light;
+        string number;
+        string address;
+        string activate;
+        string noAvailable;
+        int totalBases = 0;
+        int dockBikes = 0;
+        int freeBases = 0;
+        int reservationsCount = 0;
+    }
+}
